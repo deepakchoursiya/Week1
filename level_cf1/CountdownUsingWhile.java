@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+class CountdownUsingWhile{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);        System.out.print("Enter the starting value for countdown - ");
+        int counter = sc.nextInt();
+
+        // Countdown
+        while (counter >= 1) {
+            System.out.println(counter);
+            counter--; // Decrementing the counter
+        }
+
+
+    }
+}
